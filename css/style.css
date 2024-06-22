@@ -8452,11 +8452,11 @@ h1, h2, h3, h4, h5,
       .owl-carousel.home-slider .slider-item .slider-text {
         height: 750px;
         z-index: 0; }
-        @media (max-width: 991.98px) {
+        @media (max-width: 1000px) {
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
-          width: 70%;
+          width: 60%;
           position: relative;
           height: 750px;
           z-index: -1;
@@ -8465,7 +8465,7 @@ h1, h2, h3, h4, h5,
           box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16); }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay, .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay-1 {
             position: absolute;
-            left: -7%;
+            left: -9%;
             background: #fff;
             width: 150px;
             height: 50%;
