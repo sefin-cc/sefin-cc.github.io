@@ -1,0 +1,61 @@
+ /* The Modal (background) */
+ .modalNoCap {
+    display: none; /* Hidden by default */
+    position: fixed; 
+    z-index: 10; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%;/* Full height */
+   
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    overflow: hidden; /* Hide scrollbars */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-contentNoCap {
+    max-height: 100%;
+    max-width: 80%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+  }
+  
+  
+  /* Add Animation in the Modal */
+  .modal-contentNoCap{
+    animation: fadeIn 2s;
+  }
+
+  
+  /* The Close Button */
+  .closeX {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
