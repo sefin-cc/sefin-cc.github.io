@@ -8456,7 +8456,7 @@ h1, h2, h3, h4, h5,
           .owl-carousel.home-slider .slider-item .slider-text {
             text-align: center; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-third {
-          width: 50%;
+          width: 53%;
           position: relative;
           height: 750px;
           z-index: -1;
@@ -8465,9 +8465,9 @@ h1, h2, h3, h4, h5,
           box-shadow: 20px -20px 69px -27px rgba(0, 0, 0, 0.16); }
           .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay, .owl-carousel.home-slider .slider-item .slider-text .one-third .overlay-1 {
             position: absolute;
-            left: -9%;
+            left: -15%;
             background: #fff;
-            width: 150px;
+            width: 200px;
             height: 50%;
             opacity: 1;
             border-right: 10px solid rgba(0, 0, 0, 0.1); }
@@ -8496,7 +8496,7 @@ h1, h2, h3, h4, h5,
               .owl-carousel.home-slider .slider-item .slider-text .one-third:after {
                 opacity: 0; } }
         .owl-carousel.home-slider .slider-item .slider-text .one-forth {
-          width: 70%;
+          width: 100%;
           position: relative; }
           @media (min-width: 768px) {
             .owl-carousel.home-slider .slider-item .slider-text .one-forth {
@@ -8528,7 +8528,7 @@ h1, h2, h3, h4, h5,
                 -ms-transform: translateY(-50%);
                 transform: translateY(-50%);
                 right: 0;
-                max-width: 60%;
+                max-width: 50%;
                 padding-left: 45px;
                 padding-right: 3em; } }
         .owl-carousel.home-slider .slider-item .slider-text .subheading {
@@ -8570,7 +8570,7 @@ h1, h2, h3, h4, h5,
               color: rgba(255, 255, 255, 0.7);
               font-size: 23px; } }
         .owl-carousel.home-slider .slider-item .slider-text .btn-custom {
-          bordeR: 1px solid #b1b493;
+          border: 1px solid #b1b493;
           padding: 5px 20px;
           text-transform: uppercase;
           font-size: 12px;
