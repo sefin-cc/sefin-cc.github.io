@@ -5,7 +5,10 @@ var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
 var modalProjectName = document.getElementById("modalProjectName");
 var modalProjectType = document.getElementById("modalProjectType");
+var modalProjectType = document.getElementById("modalProjectDate");
+var modalProjectType = document.getElementById("modalProjectLink");
 var modalProjectInfo = document.getElementById("modalProjectInfo");
+var modalProjectType = document.getElementById("modalProjectTask");
 var modalProjectTitle = document.getElementById("modalTitle");
 
 // Get the modal for no discription
@@ -31,7 +34,11 @@ function clickedImage (id) {
     // modalImg.style.backgroundImage = img.style.backgroundImage;
     modalProjectName.innerHTML = informationImg[0].innerText;
     modalProjectType.innerHTML = informationImg[1].innerText;
-    modalProjectInfo.innerHTML = informationImg[2].innerText;
+    modalProjectDate.innerHTML = informationImg[2].innerText;
+    modalProjectInfo.innerHTML = informationImg[3].innerText;
+    modalProjectTask.innerHTML = informationImg[4].innerText;
+    modalProjectLink.innerHTML = informationImg[5].innerHTML;
+
     modalProjectTitle.innerHTML = informationImg[0].innerText;
 
 } 
